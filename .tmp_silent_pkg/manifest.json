@@ -1,0 +1,17 @@
+{
+    "format": 1,
+    "id": "dev.teahaus.silent-typing",
+    "name": "Silent Typing",
+    "author": "TeaHaus <1504155233909997608> (https://7eahaus.com)",
+    "contributors": ["TeaHaus <1504155233909997608>"],
+    "description": "Blocks typing indicators.",
+    "icon": "EyeSlashIcon",
+    "version": "0.1.0",
+    "dependencies": {
+        "valenced.api": { "version": ">=1" },
+        "discord": { "version": "*" }
+    },
+    "dist": {
+        "script": "index.js"
+    }
+}

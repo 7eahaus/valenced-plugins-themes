@@ -13,7 +13,7 @@ import type { ImageStyle, StyleProp } from 'react-native'
 
 let storage: JsonStorage<Settings>
 
-export default plugin<Settings>({
+plugin<Settings>({
     jsonStorage: {
         load: true,
         default: DefaultSettings,
