@@ -88,6 +88,12 @@ type PluginContext<T> = {
   logger: PluginLogger
 }
 
+type ThemesApi = {
+  registerGroup: (groupId: string, options: { name: string }) => void
+  registerTheme: (groupId: string, themeId: string, theme: any) => void
+  registerFontPack: (groupId: string, fontId: string, font: any) => void
+}
+
 type PluginApi<T> = {
   jsonStorage: JsonStorageLike<T>
 }
@@ -97,6 +103,7 @@ type PluginDefinition<TSettings> = {
     load?: boolean
     default?: TSettings
   }
+  init?: (context: { themes: ThemesApi }) => void
   start?: (context: PluginContext<TSettings>) => void
   SettingsComponent?: (props: { api: PluginApi<TSettings> }) => any
 }
