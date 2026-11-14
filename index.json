@@ -14,7 +14,7 @@
       "versions": {
         "1.0.0": {
           "url": "https://7eahaus.github.io/valenced-plugins-themes/pool/dev.teahaus.headspace-theme@1.0.0.zip",
-          "sha256": "132911434022fba81ff26d790e6d36cd5b7132bc17809649a047aeaeb59b38a6",
+          "sha256": "abafd6f9ea1787ed86926cec4e2b9f417c6fa08e81011e927ccf60078da6c06c",
           "size": 2050,
           "dependencies": {
             "valenced.api": {
@@ -41,8 +41,8 @@
       "versions": {
         "0.1.0": {
           "url": "https://7eahaus.github.io/valenced-plugins-themes/pool/dev.teahaus.silent-typing@0.1.0.zip",
-          "sha256": "441a39da90a894028ec9b3f9cd87dec2e831f22cf3cf6406533cf260589e6f16",
-          "size": 2542,
+          "sha256": "6a6122ad22f659b7033e1eba0685e5b5e62d7a0a98544a212d3c38eb5e054870",
+          "size": 2536,
           "dependencies": {
             "valenced.api": {
               "version": ">=1"
