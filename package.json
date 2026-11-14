@@ -1,0 +1,15 @@
+{
+  "name": "headspace-silent-typing",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.66",
+    "typescript": "^5.7.0"
+  }
+}
