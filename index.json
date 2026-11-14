@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "name": "TeaHaus Plugin Repository",
+  "description": "Custom plugins maintained for Valenced.",
+  "plugins": {
+    "dev.teahaus.headspace-theme": {
+      "name": "Headspace Theme",
+      "description": "",
+      "author": "TeaHaus",
+      "contributors": [],
+      "channels": {
+        "latest": "1.0.0"
+      },
+      "versions": {
+        "1.0.0": {
+          "url": "https://7eahaus.github.io/valenced-plugins-themes/pool/dev.teahaus.headspace-theme@1.0.0.zip",
+          "sha256": "132911434022fba81ff26d790e6d36cd5b7132bc17809649a047aeaeb59b38a6",
+          "size": 2050,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1 <2"
+            },
+            "discord": {
+              "version": "*"
+            },
+            "valenced.api.themes": {}
+          }
+        }
+      }
+    },
+    "dev.teahaus.silent-typing": {
+      "name": "Silent Typing",
+      "description": "Blocks typing indicators.",
+      "author": "TeaHaus <1504155233909997608> (https://7eahaus.com)",
+      "contributors": [
+        "TeaHaus <1504155233909997608>"
+      ],
+      "channels": {
+        "latest": "0.1.0"
+      },
+      "versions": {
+        "0.1.0": {
+          "url": "https://7eahaus.github.io/valenced-plugins-themes/pool/dev.teahaus.silent-typing@0.1.0.zip",
+          "sha256": "441a39da90a894028ec9b3f9cd87dec2e831f22cf3cf6406533cf260589e6f16",
+          "size": 2542,
+          "dependencies": {
+            "valenced.api": {
+              "version": ">=1"
+            },
+            "discord": {
+              "version": "*"
+            }
+          }
+        }
+      }
+    }
+  }
+}
